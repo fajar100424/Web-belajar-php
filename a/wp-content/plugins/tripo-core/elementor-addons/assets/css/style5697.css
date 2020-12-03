@@ -1,0 +1,77 @@
+.banner-one h2 span::before {
+	content: '';
+	width: 100%;
+	height: 31px;
+	background-image: url(../images/shapes/title-decor-1-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 70%;
+	left: 0;
+}
+.banner-two::before {
+	content: '';
+	width: 100%;
+	height: 419px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	background-image: url(../images/shapes/banner-two__top-shadow.png);
+
+}
+.cta-four h3 span::before {
+	content: '';
+	width: 100%;
+	height: 31px;
+	background-image: url(../images/shapes/title-decor-1-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 80%;
+	left: 0;
+}
+.testimonials-one__content::before {
+	content: '';
+	width: 85px;
+	height: 85px;
+	background-image: url(../images/shapes/testi-qoute-1-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.testimonials-one__content::after {
+	content: '';
+	width: 72px;
+	height: 20px;
+	background-image: url(../images/shapes/testi-arrow-1-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.testimonials-one__carousel .owl-item img {
+	width: 60px!important;
+	height: 60px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.gallery-one__single img
+{
+	height:380px!important;
+	object-fit:cover;
+}
